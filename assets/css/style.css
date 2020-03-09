@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal&display=swap');
+
+/*------------------------------------------------------------------colors*/
+
+.entireheader{
+    background-color: #6897BB;
+    height: 250px;
+}
+
+
+/*------------------------------------------------------------------navbar*/
+.navbar{
+    display: inline-block;
+    background-color: #6897BB;
+    margin: auto;
+    width: 100%;
+}
+
+.nav-item{
+    font-family: "Arsenal" , sans-serif;
+    color: #fafafa;
+    padding: 5px;
+    display: inline-block;
+}
+
+.container-navbar{
+    text-align: center;
+}
+/*------------------------------------------------------------------header*/
+
+
+
+h1, h2{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+    
+.photo{
+    background-image: url(../images/amccall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    border: white solid;
+    max-width: 100%;
+    max-height: 100%;
+    }
+
+
+
+.name-tagline-photo{
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+    
+}
+
+.name{
+    font-family: "Arsenal" , sans-serif;
+    color: #fafafa;
+    font-size: 50px;
+}
+
+.tagline{
+    font-family: "Arsenal" , sans-serif;
+    color: #fafafa;
+    font-size:22px;
+}
+
+
+.expertisecontainer{
+    background-color: #c6d6e4;
+    padding-top: 15px;
+    text-align: center;
+    }
+
+
+
+.areacontainer{
+    background-color: #c6d6e4;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    }
+
+/*------------------------------------------------------------------headings*/
+.section-heading{
+    font-family:  "Arsenal" ,sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    width: 25%;
+}
+
+.expertise-heading{
+    font-family:  "Arsenal" , sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/*------------------------------------------------------------------expertise*/
+.area{
+    text-align: justify;
+}
+/*------------------------------------------------------------------media queries*/
+@media(max-width: 768px){
+ .section-heading{
+    font-size: 24px;
+    display: inline;
+  
+
+    
+}
+
+.expertise-heading{
+    font-size: 16px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.nav-item{
+    font-size: 12px;
+}  
+}
+
+
+
+
+
+
+
+
+
