@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Arsenal&display=swap');
 
-/*------------------------------------------------------------------colors*/
-
-.entireheader{
-    background-color: #6897BB;
-    height: 250px;
-}
-
 
 /*------------------------------------------------------------------navbar*/
 .navbar{
@@ -17,18 +10,21 @@
 }
 
 .nav-item{
+    display: inline-block;
     font-family: "Arsenal" , sans-serif;
     color: #fafafa;
-    padding: 5px;
-    display: inline-block;
+    padding: 5px; 
 }
 
 .container-navbar{
     text-align: center;
 }
+
 /*------------------------------------------------------------------header*/
-
-
+.entireheader{
+    background-color: #6897BB;
+    height: 250px;
+}
 
 h1, h2{
     margin-left: 25px;
@@ -36,25 +32,24 @@ h1, h2{
 }
     
 .photo{
-    background-image: url(../images/amccall.jpg);
-    background-size: cover;
+    background: url(../images/amccall.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
     border: white solid;
-    max-width: 100%;
     max-height: 100%;
-    }
-
-
+    max-width: 165px;
+}
 
 .name-tagline-photo{
     height: 200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    
-    
+    padding: 20px;
+}
+
+.entireheader{
+    height: 50%;
+    padding-bottom: 20px;
 }
 
 .name{
@@ -70,20 +65,6 @@ h1, h2{
 }
 
 
-.expertisecontainer{
-    background-color: #c6d6e4;
-    padding-top: 15px;
-    text-align: center;
-    }
-
-
-
-.areacontainer{
-    background-color: #c6d6e4;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    }
 
 /*------------------------------------------------------------------headings*/
 .section-heading{
@@ -103,20 +84,27 @@ h1, h2{
     font-weight: bold;
 }
 
-
-
 /*------------------------------------------------------------------expertise*/
 .area{
     text-align: justify;
 }
+
+.expertisecontainer{
+    background-color: #c6d6e4;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.areacontainer{
+    background-color: #c6d6e4;
+    padding: 10px 40px 0px 40px;
+}
+
 /*------------------------------------------------------------------media queries*/
 @media(max-width: 768px){
  .section-heading{
     font-size: 24px;
     display: inline;
-  
-
-    
 }
 
 .expertise-heading{
@@ -129,14 +117,14 @@ h1, h2{
 
 .nav-item{
     font-size: 12px;
-}  
 }
 
+.entireheader{
+    padding-bottom: 40px;
+}
+.photo{
+    display: none;
 
-
-
-
-
-
-
+}
+}
 
