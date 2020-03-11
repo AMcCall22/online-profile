@@ -5,14 +5,14 @@
 .navbar{
     display: inline-block;
     background-color: #6897BB;
-    margin: auto;
+    margin: 0px;
     width: 100%;
 }
 
 .nav-item{
     display: inline-block;
     font-family: "Arsenal" , sans-serif;
-    color: #fafafa;
+    color: #f6f6f6;
     padding: 5px; 
 }
 
@@ -37,30 +37,31 @@ h1, h2{
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    border: white solid;
+    border: #f6f6f6 solid;
     max-height: 100%;
     max-width: 165px;
 }
 
 .name-tagline-photo{
-    height: 200px;
+    height: 220px;
     padding: 20px;
 }
 
 .entireheader{
     height: 50%;
     padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 .name{
     font-family: "Arsenal" , sans-serif;
-    color: #fafafa;
+    color: #f6f6f6;
     font-size: 50px;
 }
 
 .tagline{
     font-family: "Arsenal" , sans-serif;
-    color: #fafafa;
+    color: #f6f6f6;
     font-size:22px;
 }
 
@@ -74,7 +75,8 @@ h1, h2{
     text-align: center;
     margin: auto;
     height: 50px;
-    width: 25%;
+    width: 50%;
+    padding-top: 10px;
 }
 
 .expertise-heading{
@@ -91,13 +93,82 @@ h1, h2{
 
 .expertisecontainer{
     background-color: #c6d6e4;
-    padding-top: 15px;
     text-align: center;
+    padding: 10px 40px 0px 40px;
 }
 
-.areacontainer{
+
+/*------------------------------------------------------------------skills*/
+.skillbox{
+        height: 100px; 
+        background: #f6f6f6;
+        padding-top: 20px;
+        font-family:  "Arsenal" , sans-serif;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        width: 50%;
+      }
+
+.skills{
+    background-color: #6897BB;
+    padding: 10px 40px 50px 40px;
+}
+
+.skillscontainer{
+    padding-top: 20px;
+}
+
+.icon{
+    position: relative;
+    top: 2px;
+    padding: 2px;
+    }
+
+    .skillheader{
+    text-align: center;
+    height:30px;
+    }
+
+    
+
+/*------------------------------------------------------------------aspirations*/
+    .aspirationscontainer{
+        background-color: #c6d6e4
+    }
+
+.card{
+    width: 50%;
+    font-family: "Arsenal" , sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .cardcontainer{
+        padding-top: 20px;
+        margin: 0px;
+    }
+
+    .btn--term{
+        font-family: "Arsenal" , sans-serif;
+        background-color: #6897BB;
+        border:#f6f6f6 solid;
+        color: #f6f6f6;
+        border-radius: 20px;
+        width: 200px;
+        height: 100px;
+        
+            }
+        
+/*------------------------------------------------------------------further info*/    
+.furtherinfocontainer{
+    background-color: #6897BB;
+}
+
+.portfoliolinks{
     background-color: #c6d6e4;
-    padding: 10px 40px 0px 40px;
 }
 
 /*------------------------------------------------------------------media queries*/
@@ -105,6 +176,7 @@ h1, h2{
  .section-heading{
     font-size: 24px;
     display: inline;
+    text-align: center;
 }
 
 .expertise-heading{
@@ -122,9 +194,16 @@ h1, h2{
 .entireheader{
     padding-bottom: 40px;
 }
-.photo{
+/*.photo{
     display: none;
 
+}*/
+.skillbox{
+    font-size: 16px;
 }
 }
-
+@media(max-width: 375px){
+     .photo{
+    display: none;
+    }
+}
