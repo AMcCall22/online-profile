@@ -2,24 +2,20 @@
 
 
 /*------------------------------------------------------------------navbar*/
-.navbar{
+.navbar-nav{
     display: inline-block;
     background-color: #6897BB;
     ;
     padding: 0px;
-    
+    text-align: center;
+} 
 
-}
 
 .nav-item{
     display: inline-block;
     font-family: "Arsenal" , sans-serif;
     color: #f6f6f6;
     padding: 5px; 
-}
-
-.container-navbar{
-    text-align: center;
 }
 
 /*------------------------------------------------------------------header*/
@@ -79,7 +75,7 @@ h1, h2{
     height: 50px;
     width: 50%;
     padding-top: 10px;
-}
+    }
 
 .expertise-heading{
     font-family:  "Arsenal" , sans-serif;
@@ -144,12 +140,12 @@ h1, h2{
 
 /*------------------------------------------------------------------aspirations*/
     .aspirationscontainer{
-        background-color: #c6d6e4
+        background-color: #c6d6e4;
+        font-family: "Arsenal" , sans-serif;
     }
 
 .card{
     width: 50%;
-    font-family: "Arsenal" , sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
     }
@@ -173,16 +169,28 @@ h1, h2{
 /*------------------------------------------------------------------further info*/    
 .furtherinfocontainer{
     background-color: #6897BB;
+    font-family: "Arsenal" , sans-serif;
+    
 }
 
-.furtherinfo{
-    border:#f6f6f6 solid;
-    background-color: #c6d6e4;
-    border-radius: 10%;
+.icon2{
+    font-size: 24px;
+    display: inline-block;
+    align: center;
+    padding-bottom: 20px;
 }
 
-.portfoliolinks{
-    background-color: #c6d6e4;
+.table{
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.educationexperience{
+    display: inline-block;
+    text-align: center;
+
 }
 
 /*------------------------------------------------------------------media queries*/
