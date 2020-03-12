@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Arsenal&display=swap');
 
 
+body{
+    font-family: "Arsenal" , sans-serif;
+}
+
+
+
 /*------------------------------------------------------------------navbar*/
 .navbar-nav{
     display: inline-block;
-    background-color: #6897BB;
-    ;
+    background-color:	#a2aaaf;
     padding: 0px;
     text-align: center;
 } 
@@ -13,14 +18,13 @@
 
 .nav-item{
     display: inline-block;
-    font-family: "Arsenal" , sans-serif;
     color: #f6f6f6;
     padding: 5px; 
 }
 
 /*------------------------------------------------------------------header*/
 .entireheader{
-    background-color: #6897BB;
+    background-color: #a2aaaf;
     height: 250px;
 }
 
@@ -52,22 +56,18 @@ h1, h2{
 }
 
 .name{
-    font-family: "Arsenal" , sans-serif;
     color: #f6f6f6;
     font-size: 50px;
 }
 
 .tagline{
-    font-family: "Arsenal" , sans-serif;
     color: #f6f6f6;
     font-size:22px;
 }
 
 
-
 /*------------------------------------------------------------------headings*/
 .section-heading{
-    font-family:  "Arsenal" ,sans-serif;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
@@ -75,11 +75,16 @@ h1, h2{
     height: 50px;
     width: 50%;
     padding-top: 10px;
-    }
+}
 
 .expertise-heading{
-    font-family:  "Arsenal" , sans-serif;
     font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.islandheading{
+    font-size: 18px;
     text-align: center;
     font-weight: bold;
 }
@@ -90,8 +95,7 @@ h1, h2{
 }
 
 .expertisecontainer{
-    font-family:  "Arsenal" , sans-serif;
-    background-color: #c6d6e4;
+    background-color: #e9eaec;
     text-align: center;
     padding: 20px 40px 0px 40px;
 }
@@ -101,24 +105,23 @@ h1, h2{
 
 .skillsaspirationscontainer{
     padding-top: 10px;
-    background-color: #6897BB; 
+    background-color: #a2aaaf;
 }
 .skillbox{
         height: 100px; 
         background: #f6f6f6;
         padding-top: 20px;
-        font-family:  "Arsenal" , sans-serif;
         text-align: center;
         font-size: 18px;
         font-weight: bold;
-        border-radius: 50%;
-        margin-bottom: 10px;
+        border-radius: 10%;
         width: 50%;
-      }
+}
 
 .skills{
-    background-color: #6897BB;
-    padding: 10px 40px 50px 40px;
+    background-color: #a2aaaf;
+    padding: 10px 50px 10px 50px;
+    margin: 20px;
 }
 
 .skillscontainer{
@@ -129,42 +132,41 @@ h1, h2{
     position: relative;
     top: 2px;
     padding: 2px;
-    }
+    font-size: 14px;
+}
 
-    .skillheader{
+.skillheader{
     text-align: center;
     height:30px;
-    }
-
-    
+}
 
 /*------------------------------------------------------------------aspirations*/
-    .aspirationscontainer{
-        background-color: #c6d6e4;
-        font-family: "Arsenal" , sans-serif;
-    }
+.aspirationscontainer{
+    background-color: #a2aaaf;
+    padding-top: 10px;
+}
 
 .card{
     width: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
-    }
+}
 
-    .cardcontainer{
-        padding-top: 20px;
-        margin: 0px;
-    }
+.cardcontainer{
+    padding-top: 20px;
+    margin: 0px;
+}
 
 /*------------------------------------------------------------------further info*/    
 .furtherinfocontainer{
-    background-color: #6897BB;
-    font-family: "Arsenal" , sans-serif;
+    background-color: #e9eaec;
+    padding-top: 30px;
 }
 
 .icon2{
     font-size: 24px;
     display: inline-block;
-    align: center;
+    text-align: center;
     padding-bottom: 20px;
 }
 
@@ -180,11 +182,32 @@ h1, h2{
     text-align: center;
 }
 
+.portfoliolinks{
+    padding-top: 40px;
+}
+
 .links{
     padding: 30px;
     text-align: center;
 }
 
+.img-thumbnail{
+    width: 90%;
+}
+
+/*------------------------------------------------------------------form*/
+.formcontent{
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+.btn--form{
+    border-radius: 25%;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
 /*------------------------------------------------------------------media queries*/
 @media(max-width: 768px){
  .section-heading{
@@ -208,10 +231,7 @@ h1, h2{
 .entireheader{
     padding-bottom: 40px;
 }
-/*.photo{
-    display: none;
 
-}*/
 .skillbox{
     font-size: 16px;
 }
