@@ -155,22 +155,10 @@ h1, h2{
         margin: 0px;
     }
 
-    .btn--term{
-        font-family: "Arsenal" , sans-serif;
-        background-color: #6897BB;
-        border:#f6f6f6 solid;
-        color: #f6f6f6;
-        border-radius: 20px;
-        width: 200px;
-        height: 100px;
-        
-            }
-        
 /*------------------------------------------------------------------further info*/    
 .furtherinfocontainer{
     background-color: #6897BB;
     font-family: "Arsenal" , sans-serif;
-    
 }
 
 .icon2{
@@ -190,7 +178,11 @@ h1, h2{
 .educationexperience{
     display: inline-block;
     text-align: center;
+}
 
+.links{
+    padding: 30px;
+    text-align: center;
 }
 
 /*------------------------------------------------------------------media queries*/
