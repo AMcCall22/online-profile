@@ -92,12 +92,19 @@ h1, h2{
 /*------------------------------------------------------------------expertise*/
 .area{
     text-align: justify;
+    padding-bottom: 20px;
 }
 
 .expertisecontainer{
     background-color: #e9eaec;
     text-align: center;
-    padding: 20px 40px 0px 40px;
+    padding: 20px 60px 0px 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -114,7 +121,7 @@ h1, h2{
         text-align: center;
         font-size: 18px;
         font-weight: bold;
-        border-radius: 10%;
+        border-radius: 50%;
         width: 50%;
 }
 
@@ -161,6 +168,7 @@ h1, h2{
 .furtherinfocontainer{
     background-color: #e9eaec;
     padding-top: 30px;
+    text-align: center;
 }
 
 .icon2{
@@ -175,7 +183,8 @@ h1, h2{
     width: 80%;
     margin: auto;
     text-align: left;
-}
+    box-lines: #a2aaaf;
+    }
 
 .educationexperience{
     display: inline-block;
@@ -183,12 +192,14 @@ h1, h2{
 }
 
 .portfoliolinks{
-    padding-top: 40px;
+    padding-top: 30px;
+    text-align: center;
 }
 
 .links{
-    padding: 30px;
+    padding: 10px 30px 30px 30px;
     text-align: center;
+    margin: auto;
 }
 
 .img-thumbnail{
@@ -196,9 +207,9 @@ h1, h2{
 }
 
 /*------------------------------------------------------------------form*/
-.formcontent{
-    padding-top: 10px;
-    max-width: 100%;
+.modal-content{
+    background-color:#e9eaec;
+    border:#a2aaaf solid;
 }
 
 .btn--form{
@@ -237,7 +248,10 @@ h1, h2{
 }
 }
 @media(max-width: 375px){
-     .photo{
-    display: none;
+.photo{
+display: none;
     }
+
+
 }
+
