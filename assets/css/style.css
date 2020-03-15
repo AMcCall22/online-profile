@@ -86,7 +86,7 @@ h1, h2{
     padding-top: 20px;
 }
 
-.islandheading{
+.island-heading{
     font-size: 18px;
     text-align: center;
     font-weight: bold;
@@ -104,7 +104,7 @@ h1, h2{
 
 /*------------------------------------------------------------------expertise*/
 
-#expertise{
+#expertiseskills{
     background-color: #ffffff;
     margin-bottom: 150px;
 }
@@ -115,9 +115,9 @@ h1, h2{
     border: #0ea7b5 double;
 }
 
-.expertisecontainer{
+.expertise-detail{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 ul{
@@ -128,9 +128,7 @@ ul{
 
 
 /*------------------------------------------------------------------skills*/
-#skillsaspirations{
-    background-color: #0ea7b5;
-}
+
 
 .skillbox{
         height: 100px; 
@@ -141,13 +139,14 @@ ul{
         font-weight: bold;
         border-radius: 50%;
         width: 50%;
+        margin: auto;
 }
 
 .skills{
     padding: 30px 50px 10px 50px;
 }
 
-.skillscontainer{
+.skills-detail{
     padding-top: 20px;
 }
 
@@ -170,17 +169,33 @@ ul{
 
 }
 
-.cvdetail{
+.cv-detail{
     font-size: 24px;
     color: black;
 }
 
-/*------------------------------------------------------------------aspirations*/
-.aspirationscontainer{
-    background-color:	#0ea7b5;
-    padding-top: 10px;
+/*------------------------------------------------------------------portfolio*/
+#portfolio{
+    background-color: #0ea7b5;
 }
 
+.portfoliolinks{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.links{
+    padding: 10px 30px 30px 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.img-thumbnail{
+    width: 90%;
+}
+
+
+/*------------------------------------------------------------------aspirations*/
 .card{
     width: 50%;
     margin-top: 20px;
@@ -193,12 +208,11 @@ ul{
 }
 
 /*------------------------------------------------------------------further info*/ 
-
 #furtherinfo{
     background-color: #ffffff;
 }
-.furtherinfocontainer{
-    padding-top: 30px;
+.furtherinfo-detail{
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -222,20 +236,7 @@ ul{
     text-align: center;
 }
 
-.portfoliolinks{
-    padding-top: 20px;
-    text-align: center;
-}
 
-.links{
-    padding: 10px 30px 30px 30px;
-    text-align: center;
-    margin: auto;
-}
-
-.img-thumbnail{
-    width: 90%;
-}
 
 /*------------------------------------------------------------------form*/
 .modal-content{
