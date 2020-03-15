@@ -93,23 +93,30 @@ h1, h2{
 
 .fullscreen{
     height: 100vh;
+    max-height: 100%;
+
+}
+.flex {
+display : flex;
+height : auto;
+min-height : 100%;
+}
     
  
-}
+
 /*------------------------------------------------------------------expertise*/
 
 .area{
     padding-top: 10px;
     padding-bottom: 20px;
     border: #0ea7b5 double;
-    
-
- }
+}
 
 .expertisecontainer{
     background-color: #ffffff;
     text-align: center;
     padding-top: 30px;
+    height: 100%;
 }
 
 ul{
@@ -127,18 +134,17 @@ ul{
 }
 .skillbox{
         height: 100px; 
-        background: #ffffff;
+        background: #0ea7b5;
         padding-top: 20px;
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
         border-radius: 50%;
         width: 50%;
 }
 
 .skills{
-    padding: 10px 50px 10px 50px;
-  
+    padding: 30px 50px 10px 50px;
 }
 
 .skillscontainer{
