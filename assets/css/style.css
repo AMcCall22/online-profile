@@ -10,7 +10,7 @@ body{
 /*------------------------------------------------------------------navbar*/
 .navbar-nav{
     display: inline-block;
-    background-color:	#7E9ABF;
+    background-color:	#0ea7b5;
     padding: 0px;
     text-align: center;
 } 
@@ -18,13 +18,13 @@ body{
 
 .nav-item{
     display: inline-block;
-    color: #FEFAF9;
+    color: #ffffff;
     padding: 5px; 
 }
 
 /*------------------------------------------------------------------header*/
 .entireheader{
-    background-color: #7E9ABF; 
+    background-color: #0ea7b5;
     height: 250px;
 }
 
@@ -39,7 +39,7 @@ h1, h2{
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    border: #FEFAF9 solid;
+    border: #ffffff solid;
     max-height: 100%;
     max-width: 165px;
 }
@@ -56,26 +56,13 @@ h1, h2{
 }
 
 .name{
-    color: #FEFAF9;
+    color: #ffffff;
     font-size: 50px;
 }
 
 .tagline{
-    color: #FEFAF9;
+    color: #ffffff;
     font-size:22px;
-}
-
-.fullscreen{
-height: 100vh;
-padding-top: 30px;
-}
-
-.dark{
-    background-color:	#7E9ABF;
-}
-
-.light{
-    background-color: #FEFAF9;
 }
 
 
@@ -87,15 +74,14 @@ padding-top: 30px;
     margin: auto;
     height: 50px;
     width: 50%;
-    padding-bottom: 70px;
 }
 
 .expertise-heading{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .islandheading{
@@ -105,42 +91,43 @@ padding-top: 30px;
 }
 
 
-/*------------------------------------------------------------------expertise*/
-.area{
-    text-align: left;
-    border: #7E9ABF solid;
-    font-size: 18px;
-    width: 80%;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.fullscreen{
+    height: 100vh;
     
+ 
 }
+/*------------------------------------------------------------------expertise*/
+
+.area{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: #0ea7b5 double;
+    
+
+ }
 
 .expertisecontainer{
+    background-color: #ffffff;
     text-align: center;
-    padding: 20px 60px 0px 60px;
-    box-align: center;
-    }
+    padding-top: 30px;
+}
 
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.cvdetail{
-    font-size: 24px;
-    color: black;
-}
-
 
 /*------------------------------------------------------------------skills*/
 
+.skillsaspirationscontainer{
+    padding-top: 10px;
+    background-color: #0ea7b5;
+}
 .skillbox{
         height: 100px; 
-        background: #FEFAF9 solid;
-        background-color: #7E9ABF;
+        background: #ffffff;
         padding-top: 20px;
         text-align: center;
         font-size: 18px;
@@ -151,7 +138,7 @@ ul {
 
 .skills{
     padding: 10px 50px 10px 50px;
-    margin: 20px;
+  
 }
 
 .skillscontainer{
@@ -171,7 +158,10 @@ ul {
 }
 
 /*------------------------------------------------------------------aspirations*/
-
+.aspirationscontainer{
+    background-color:	#0ea7b5;
+    padding-top: 10px;
+}
 
 .card{
     width: 50%;
@@ -184,22 +174,9 @@ ul {
     margin: 0px;
 }
 
-.btn--term{
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 200px;
-    font-weight: bold;
-    color: #7E9ABF;
-    min-height: 50px;
-}
-
-.aspirations{
-    padding-top: 50px;
-}
-
 /*------------------------------------------------------------------further info*/    
 .furtherinfocontainer{
+    background-color: #ffffff;
     padding-top: 30px;
     text-align: center;
 }
@@ -216,7 +193,8 @@ ul {
     width: 80%;
     margin: auto;
     text-align: left;
-}
+    box-lines: #a2aaaf;
+    }
 
 .educationexperience{
     display: inline-block;
@@ -224,7 +202,8 @@ ul {
 }
 
 .portfoliolinks{
-        text-align: center;
+    padding-top: 30px;
+    text-align: center;
 }
 
 .links{
@@ -239,8 +218,8 @@ ul {
 
 /*------------------------------------------------------------------form*/
 .modal-content{
-    background-color: #FEFAF9;
-    border: #7E9ABF solid;
+    background-color:#e9eaec;
+    border:#a2aaaf solid;
 }
 
 .btn--form{
@@ -249,7 +228,6 @@ ul {
     margin: 0 auto;
     display: block;
     text-align: center;
-    background-color: #7E9ABF;
 }
 /*------------------------------------------------------------------media queries*/
 @media(max-width: 768px){
@@ -283,7 +261,3 @@ h1, h2{
 .photo{
 display: none;
     }
-
-
-}
-
