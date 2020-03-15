@@ -196,6 +196,15 @@ ul{
 
 
 /*------------------------------------------------------------------aspirations*/
+
+.btn--term{
+    background-color: #0ea7b5;
+    border: #000000 solid; 
+}
+
+.aspirations{
+    padding-top: 30px;
+}
 .card{
     width: 50%;
     margin-top: 20px;
@@ -234,6 +243,7 @@ ul{
 .educationexperience{
     display: inline-block;
     text-align: center;
+    padding-top: 30px;
 }
 
 
@@ -245,11 +255,10 @@ ul{
 }
 
 .btn--form{
-    border-radius: 25%;
-    width: 200px;
     margin: 0 auto;
     display: block;
     text-align: center;
+    font-size: 16px;
 }
 /*------------------------------------------------------------------media queries*/
 @media(max-width: 768px){
