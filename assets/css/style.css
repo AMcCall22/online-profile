@@ -10,7 +10,7 @@ body{
 /*------------------------------------------------------------------navbar*/
 .navbar-nav{
     display: inline-block;
-    background-color:	#a2aaaf;
+    background-color:	#7E9ABF;
     padding: 0px;
     text-align: center;
 } 
@@ -18,13 +18,13 @@ body{
 
 .nav-item{
     display: inline-block;
-    color: #f6f6f6;
+    color: #FEFAF9;
     padding: 5px; 
 }
 
 /*------------------------------------------------------------------header*/
 .entireheader{
-    background-color: #a2aaaf;
+    background-color: #7E9ABF; 
     height: 250px;
 }
 
@@ -39,7 +39,7 @@ h1, h2{
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    border: #f6f6f6 solid;
+    border: #FEFAF9 solid;
     max-height: 100%;
     max-width: 165px;
 }
@@ -56,13 +56,26 @@ h1, h2{
 }
 
 .name{
-    color: #f6f6f6;
+    color: #FEFAF9;
     font-size: 50px;
 }
 
 .tagline{
-    color: #f6f6f6;
+    color: #FEFAF9;
     font-size:22px;
+}
+
+.fullscreen{
+height: 100vh;
+padding-top: 30px;
+}
+
+.dark{
+    background-color:	#7E9ABF;
+}
+
+.light{
+    background-color: #FEFAF9;
 }
 
 
@@ -74,13 +87,15 @@ h1, h2{
     margin: auto;
     height: 50px;
     width: 50%;
-    padding-top: 10px;
+    padding-bottom: 70px;
 }
 
 .expertise-heading{
     font-size: 24px;
     text-align: center;
     font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .islandheading{
@@ -89,17 +104,24 @@ h1, h2{
     font-weight: bold;
 }
 
+
 /*------------------------------------------------------------------expertise*/
 .area{
-    text-align: justify;
+    text-align: left;
+    border: #7E9ABF solid;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 
 .expertisecontainer{
-    background-color: #e9eaec;
     text-align: center;
     padding: 20px 60px 0px 60px;
-}
+    box-align: center;
+    }
 
 ul {
     list-style-type: none;
@@ -107,16 +129,18 @@ ul {
     padding: 0;
 }
 
+.cvdetail{
+    font-size: 24px;
+    color: black;
+}
+
 
 /*------------------------------------------------------------------skills*/
 
-.skillsaspirationscontainer{
-    padding-top: 10px;
-    background-color: #a2aaaf;
-}
 .skillbox{
         height: 100px; 
-        background: #f6f6f6;
+        background: #FEFAF9 solid;
+        background-color: #7E9ABF;
         padding-top: 20px;
         text-align: center;
         font-size: 18px;
@@ -126,7 +150,6 @@ ul {
 }
 
 .skills{
-    background-color: #a2aaaf;
     padding: 10px 50px 10px 50px;
     margin: 20px;
 }
@@ -148,10 +171,7 @@ ul {
 }
 
 /*------------------------------------------------------------------aspirations*/
-.aspirationscontainer{
-    background-color: #a2aaaf;
-    padding-top: 10px;
-}
+
 
 .card{
     width: 50%;
@@ -164,9 +184,22 @@ ul {
     margin: 0px;
 }
 
+.btn--term{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 200px;
+    font-weight: bold;
+    color: #7E9ABF;
+    min-height: 50px;
+}
+
+.aspirations{
+    padding-top: 50px;
+}
+
 /*------------------------------------------------------------------further info*/    
 .furtherinfocontainer{
-    background-color: #e9eaec;
     padding-top: 30px;
     text-align: center;
 }
@@ -183,8 +216,7 @@ ul {
     width: 80%;
     margin: auto;
     text-align: left;
-    box-lines: #a2aaaf;
-    }
+}
 
 .educationexperience{
     display: inline-block;
@@ -192,8 +224,7 @@ ul {
 }
 
 .portfoliolinks{
-    padding-top: 30px;
-    text-align: center;
+        text-align: center;
 }
 
 .links{
@@ -208,8 +239,8 @@ ul {
 
 /*------------------------------------------------------------------form*/
 .modal-content{
-    background-color:#e9eaec;
-    border:#a2aaaf solid;
+    background-color: #FEFAF9;
+    border: #7E9ABF solid;
 }
 
 .btn--form{
@@ -218,6 +249,7 @@ ul {
     margin: 0 auto;
     display: block;
     text-align: center;
+    background-color: #7E9ABF;
 }
 /*------------------------------------------------------------------media queries*/
 @media(max-width: 768px){
