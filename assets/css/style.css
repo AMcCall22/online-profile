@@ -96,9 +96,6 @@ h1, h2{
 .fullscreen{
     height: 100vh;
     width: 100%;
-    
-    
-
 }
 
 
@@ -106,7 +103,8 @@ h1, h2{
 
 #expertiseskills{
     background-color: #ffffff;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
+    height: 100%;
 }
 
 .area{
@@ -128,17 +126,14 @@ ul{
 
 
 /*------------------------------------------------------------------skills*/
-
-
 .skillbox{
-        height: 100px; 
+        height: 100%;
         background: #0ea7b5;
-        padding-top: 20px;
+        padding: 20px;
         text-align: center;
         font-size: 16px;
         font-weight: bold;
         border-radius: 50%;
-        width: 50%;
         margin: auto;
 }
 
@@ -166,7 +161,6 @@ ul{
 .cv{
     padding-top: 30px;
     text-align: center;
-
 }
 
 .cv-detail{
@@ -204,6 +198,7 @@ ul{
 
 .aspirations{
     padding-top: 30px;
+    padding-bottom: 40px;
 }
 .card{
     width: 50%;
@@ -255,7 +250,7 @@ ul{
 }
 
 .btn--form{
-    margin: 0 auto;
+    margin: auto;
     display: block;
     text-align: center;
     font-size: 16px;
