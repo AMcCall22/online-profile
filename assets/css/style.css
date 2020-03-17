@@ -212,6 +212,7 @@ ul{
 #furtherinfo{
     background-color: #ffffff;
     height: 100%;
+    margin: auto;
 }
 .furtherinfo-detail{
     padding-top: 40px;
@@ -220,7 +221,6 @@ ul{
 
 .icon2{
     font-size: 24px;
-    /*display: inline-block;*/
     text-align: center;
     padding-bottom: 20px;
 }
@@ -230,13 +230,15 @@ ul{
     width: 80%;
     margin: auto;
     text-align: left;
-    box-lines: #a2aaaf;
+    
 }
 
+}
 .educationexperience{
     display: inline-block;
     text-align: center;
     padding-top: 30px;
+    
 }
 
 /*------------------------------------------------------------------form*/
