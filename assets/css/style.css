@@ -97,10 +97,11 @@ h1, h2{
 /*------------------------------------------------------------------expertise*/
 
 #expertiseskills{
-    background-color: #ffffff;
-    margin-bottom: 20px;
+        margin-bottom: 20px;
     height: 100%;
+    
 }
+
 
 .area{
     padding-top: 10px;
@@ -111,6 +112,8 @@ h1, h2{
 .expertise-detail{
     text-align: center;
     padding-top: 40px;
+    background-color: #ffffff;
+    
 }
 
 ul{
@@ -122,24 +125,21 @@ ul{
 
 /*------------------------------------------------------------------skills*/
 .skills{
-     padding-top: 40px;
-     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    text-align: center;
 }
 
 .skillbox{
     background: #0ea7b5;
-    padding: 20px;
+    padding: 20px 10px 20px 10px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 50%;
-    height: 100%;
-    margin: auto;
-}
-
-
-
-.skills-detail{
-    padding-top: 20px;
+    margin-top: 20px;
+    height: 100px;
+    width: 100px
+ 
 }
 
 .icon{
@@ -194,7 +194,7 @@ ul{
 }
 
 .aspirations{
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 40px;
 }
 .card{
@@ -213,6 +213,7 @@ ul{
     background-color: #ffffff;
     height: 100%;
     margin: auto;
+    
 }
 .furtherinfo-detail{
     padding-top: 40px;
@@ -230,10 +231,10 @@ ul{
     width: 80%;
     margin: auto;
     text-align: left;
-    
+      
 }
 
-}
+
 .educationexperience{
     display: inline-block;
     text-align: center;
@@ -244,7 +245,11 @@ ul{
 /*------------------------------------------------------------------form*/
 .modal-content{
     background-color:#e9eaec;
-    border:#a2aaaf solid;
+    
+}
+
+.modal-header{
+    border: none;
 }
 
 .btn--form{
@@ -255,8 +260,6 @@ ul{
 }
 
 /*------------------------------------------------------------------footer*/
-
-
 .social-list{
     background-color:	#0ea7b5;
     text-align: center;
