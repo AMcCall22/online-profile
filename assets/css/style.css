@@ -28,12 +28,9 @@ body{
 /*------------------------------------------------------------------header*/
 .entireheader{
     background-color: #0ea7b5;
-    height: 250px;
-}
-
-h1, h2{
-    margin-left: 25px;
-    margin-right: 25px;
+    height: 50%;
+    padding-bottom: 20px;
+    padding-top: 40px;  
 }
     
 .photo{
@@ -50,22 +47,19 @@ h1, h2{
 .name-tagline-photo{
     height: 220px;
     padding: 20px;
-}
-
-.entireheader{
-    height: 50%;
-    padding-bottom: 20px;
-    padding-top: 40px;
+    color: #ffffff;      
 }
 
 .name{
-    color: #ffffff;
     font-size: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .tagline{
-    color: #ffffff;
     font-size:22px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 
@@ -76,9 +70,7 @@ h1, h2{
     text-align: center;
     margin: auto;
     height: 50px;
-    width: 50%;
-    
-   
+    width: 50%;  
 }
 
 .sub-heading{
@@ -97,9 +89,8 @@ h1, h2{
 /*------------------------------------------------------------------expertise*/
 
 #expertiseskills{
-        margin-bottom: 20px;
-    height: 100%;
-    
+    margin-bottom: 20px;
+    height: 100%; 
 }
 
 
@@ -112,8 +103,7 @@ h1, h2{
 .expertise-detail{
     text-align: center;
     padding-top: 40px;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;  
 }
 
 ul{
@@ -140,7 +130,6 @@ ul{
     margin-top: 20px;
     height: 100px;
     width: 100px
- 
 }
 
 .icon{
@@ -186,18 +175,18 @@ ul{
     width: 80%;
 }
 
-
 /*------------------------------------------------------------------aspirations*/
 
-.btn--term{
+.btn--style{
     background-color: #0ea7b5;
-    border: #000000 solid; 
+    border: #000000 solid 0.5px; 
 }
 
 .aspirations{
     padding-top: 20px;
     padding-bottom: 40px;
 }
+
 .card{
     width: 50%;
     margin-top: 20px;
@@ -231,16 +220,14 @@ ul{
     padding: 40px;
     width: 80%;
     margin: auto;
-    text-align: left;
-      
+    text-align: left;     
 }
 
 
 .educationexperience{
     display: inline-block;
     text-align: center;
-    padding-top: 30px;
-    
+    padding-top: 30px;    
 }
 
 /*------------------------------------------------------------------form*/
@@ -251,14 +238,21 @@ ul{
 
 .modal-header{
     border: none;
+    padding-left: 10px;
 }
 
-.btn--form{
-    margin: auto;
-    display: block;
-    text-align: center;
-    font-size: 16px;
+
+.form-control{
+    margin: 5px;
+    display: inline-block;
+    width: 95%;
 }
+
+.formcontent{
+    padding-bottom: 10px;
+}
+
+
 
 /*------------------------------------------------------------------footer*/
 .social-list{
@@ -285,7 +279,7 @@ font-size: 18px;
 }
 
 
-h1, h2{
+.name-tagline{
     text-align: center;
 }
 
