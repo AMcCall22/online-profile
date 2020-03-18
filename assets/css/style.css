@@ -4,8 +4,8 @@
 body{
     font-family: "Arsenal" , sans-serif;
     margin: auto;
-    height: 100%
-    }
+    height: 100%;
+}
 
 
 
@@ -17,12 +17,11 @@ body{
     text-align: center;
 } 
 
-
 .nav-item{
     display: inline-block;
     color: #ffffff;
     padding: 5px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*------------------------------------------------------------------header*/
@@ -30,7 +29,8 @@ body{
     background-color: #0ea7b5;
     height: 50%;
     padding-bottom: 20px;
-    padding-top: 40px;  
+    padding-top: 40px;
+    color: #ffffff;   
 }
     
 .photo{
@@ -46,8 +46,7 @@ body{
 
 .name-tagline-photo{
     height: 220px;
-    padding: 20px;
-    color: #ffffff;      
+    padding: 20px;      
 }
 
 .name{
@@ -87,23 +86,22 @@ body{
 
 
 /*------------------------------------------------------------------expertise*/
-
 #expertiseskills{
     margin-bottom: 20px;
-    height: 100%; 
+    height: 100%;
+    background-color: #ffffff; 
 }
-
 
 .area{
     padding-top: 10px;
     padding-bottom: 20px;
     border: #0ea7b5 double;
+    font-size: 18px;
 }
 
 .expertise-detail{
     text-align: center;
     padding-top: 40px;
-    background-color: #ffffff;  
 }
 
 ul{
@@ -112,28 +110,22 @@ ul{
     padding: 0;
 }
 
-
 /*------------------------------------------------------------------skills*/
 .skills{
     padding-top: 40px;
-    padding-bottom: 0px;
     text-align: center;
     width: 75%;
 }
 
 .skillbox{
-    background: #0ea7b5;
-    padding: 20px 10px 20px 10px;
+    background-color: #0ea7b5;
+    padding: 20px;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 50%;
-    margin-top: 20px;
-    height: 100px;
-    width: 100px
+    margin: 20px 10px 20px 10px;
 }
 
 .icon{
-    position: relative;
     top: 2px;
     padding: 2px;
     font-size: 14px;
@@ -179,7 +171,8 @@ ul{
 
 .btn--style{
     background-color: #0ea7b5;
-    border: #000000 solid 0.5px; 
+    border: #000000 solid 0.5px;
+    color: #ffffff;
 }
 
 .aspirations{
@@ -198,11 +191,15 @@ ul{
     margin: 0px;
 }
 
+.aspiration-detail{
+    font-size: 20px;
+}
+
 /*------------------------------------------------------------------further info*/ 
 #furtherinfo{
     background-color: #ffffff;
     height: 100%;
-    margin: auto;
+    /*margin: auto;*/
     
 }
 .furtherinfo-detail{
@@ -222,7 +219,6 @@ ul{
     margin: auto;
     text-align: left;     
 }
-
 
 .educationexperience{
     display: inline-block;
@@ -253,7 +249,6 @@ ul{
 }
 
 
-
 /*------------------------------------------------------------------footer*/
 .social-list{
     background-color:	#0ea7b5;
@@ -263,8 +258,8 @@ ul{
 }
 
 .social-links a{
-color: #ffffff;
-font-size: 18px;
+    color: #ffffff;
+    font-size: 18px;
 }
 
 /*------------------------------------------------------------------media queries*/
@@ -278,13 +273,19 @@ font-size: 18px;
     font-size: 16px;
 }
 
-
 .name-tagline{
     text-align: center;
 }
-
+.skillbox{
+    padding: 10px;
+}
 .photo{
 display: none;
 }
 }
+
+
+
+
+
 
