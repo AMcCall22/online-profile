@@ -28,7 +28,7 @@ This site may also be used for **potential employers** who would have similar re
 
 #### Wireframes
 
-Link to [Wireframes](https://github.com/AMcCall22/online-profile/blob/da213b439518bbd5f4e83df57075216c6ac3907f/Wireframes/AMc_Profile_Wireframes.pdf) -
+Link to [Wireframes](https://c131787a-8544-4671-acc4-93e8d5fb0951.ws-eu01.gitpod.io/files/download/?id=dd10ecca-ead0-4bdd-9851-7832af552c64) -
 
 ## Features
 
