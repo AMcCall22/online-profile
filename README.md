@@ -97,7 +97,6 @@ Test description and desired outcome -
 
 Ensure that the site is responsive and loads correctly on each screen size using the chrome developer tools:
 
-- *Extra small devices - Passed* 
 - *Small devices - Passed*
 - *Medium devices - Passed*
 - *Large devices - Passed*
