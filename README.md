@@ -7,32 +7,28 @@ I have chosen to complete an online profile of myself as the basis of this proje
 The site is split into 3 sections: 
 
 - Section one contains my main areas of expertise and skills.  
-
 - Section two contains images of my 'make-believe' portfolio with links.
-
 - Section three details some further information covering education, job history,  my career aspirations and a contact form.   
 
-  
+**££Add in MockUp££**
 
 ## UX
 
 #### User Stories
 
-"As a **tech recruiter** recruiting for a web developer role,  I would like to see the following:
+"*As a **tech recruiter** recruiting for a web developer role,  I would like to see the following:*
 
-- A simple and clear design that showcases the candidate's professional attributes
-- Examples or portfolio of previous work
-- A method to contact the candidate 
+- *A simple and clear design that showcases the candidate's professional attributes*
+- *Examples or portfolio of previous work*
+- *A method to contact the candidate* 
 
-I need to be able to quickly scan the site to confirm initial suitability to a role-type, but with enough relevant detail to  match a specific role if applicable. Layout and clear headings are therefore important to me."
+*I need to be able to quickly scan the site to confirm initial suitability to a role-type, but with enough relevant detail to  match a specific role if applicable. Layout and clear headings are therefore important to me."*
 
 This site may also be used for **potential employers** who would have similar requirements as per the above.
 
 #### Wireframes
 
-**££ ADD IN WIREFRAMES ££**
-
-
+Link to [Wireframes](https://github.com/AMcCall22/online-profile/blob/da213b439518bbd5f4e83df57075216c6ac3907f/Wireframes/AMc_Profile_Wireframes.pdf) -
 
 ## Features
 
@@ -85,11 +81,14 @@ Test description and desired outcome -
 - *Chrome - Passed*
 - *Edge - Passed*
 - *Firefox - Passed*
+- *Safari - Passed*
 
 ##### Code Validation
 
 - [W3C Markup Validation](https://validator.w3.org/) -  *Validation outcome - Document checking completed. No errors or warnings to show.* - *Passed*
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)  *Validation outcome - Congratulations! No Error Found. - Passed*
+
+Links and Buttons have also all been tested. 
 
 #### **Reach (responsiveness)**
 
@@ -100,6 +99,7 @@ Ensure that the site is responsive and loads correctly on each screen size using
 - *Small devices - Passed*
 - *Medium devices - Passed*
 - *Large devices - Passed*
+- *x-Large devices - Passed*
 
 Media queries were added in to compensate for any issues faced, including heading sizes and alignment.  I also removed my photo on any device smaller than an Ipad as it did not seem necessary.
 
@@ -107,13 +107,13 @@ Media queries were added in to compensate for any issues faced, including headin
 
 ## Deployment
 
-
+££ADD IN££
 
 ## Credits
 
 ### Content
 
-The text for this site was written by myself.  I did have some help with my CV from Helen Langam, a Human Resource Consultant at Lee Hecht Harrison Penna, which is embedded in the site.
+The text for this site was written by myself.  I did have some help with my CV from Helen Langham, a Human Resource Consultant at Lee Hecht Harrison Penna, which is embedded in the site.
 
 I utilised the following 3 sites as fake portfolio links for my site:
 
@@ -123,10 +123,19 @@ I utilised the following 3 sites as fake portfolio links for my site:
 
 ### Media
 
-The background image used on the desktop is personal photo which also acts as my LinkedIn profile photo. 
+The background image used on site is personal photo.
 
 ### Acknowledgements
 
+Thanks to my Mentor Brian Macharia for his input and direction.
+
+Thanks also to Richard Wells for the recent Milestone 1 session he ran which provided valuable guidance on best practices. 
+
+
+
+------
+
 Disclaimer
 
-This site is currently for educational and practical use only but may be edited and updated for job searches in the future.
+This site is currently for educational and practical use and may be edited and updated for personal job searches in the future.
+
