@@ -10,9 +10,8 @@ The site is split into 3 sections:
 - Section two contains images of my 'make-believe' portfolio with links.
 - Section three details some further information covering education, job history,  my career aspirations and a contact form.   
 
-#### Mock Up image
+#### Mock Up images
 ![](/Wireframes/AMc_MockUp.png)
-
 ## UX
 
 #### User Stories
@@ -27,9 +26,11 @@ The site is split into 3 sections:
 
 This site may also be used for **potential employers** who would have similar requirements as per the above.
 
+
 #### Wireframes
 
-Link to [Wireframes](https://c131787a-8544-4671-acc4-93e8d5fb0951.ws-eu01.gitpod.io/files/download/?id=dd10ecca-ead0-4bdd-9851-7832af552c64)
+Link to [Wireframes](/Wireframes/AMc_MockUp.png)
+
 
 ## Features
 
@@ -54,7 +55,6 @@ This section contains 3 images and web-links to my 'make-believe' portfolio.  Th
 This further information section provide a brief view of my education and job history.  I have also included my short and long-term career aspirations  which will be useful to a recruiter, as well as a simple contact form for any further discussion points. 
 
 
-
 ## Technologies Used
 
 - HTML
@@ -66,7 +66,6 @@ This further information section provide a brief view of my education and job hi
 - Font Awesome
 - Google Fonts
 - Unicorn Revealer (https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln)
-
 
 
 ## Testing
@@ -102,13 +101,41 @@ Ensure that the site is responsive and loads correctly on each screen size using
 - *Large devices - Passed*
 - *x-Large devices - Passed*
 
-Media queries were added in to compensate for any issues faced, including heading sizes and alignment.  I also removed my photo on any device smaller than an Ipad as it did not seem necessary.
+
+### Issues faced and resolved
+
+The main issue faced throughout this project was the background colour and height taking up the full screen when the relevant nav bar item was selected. This was fixed by adding in a class="fullscreen" of 100vh, as well as a height of 100% for each section.
+
+Media queries were added in to compensate for any issues faced, including heading sizes and alignment.  
+
+I also removed my photo on any device smaller than an Ipad as it did not seem necessary.
 
 
 
 ## Deployment
 
-££ADD IN££
+The GitHub repository for this site is located [here](https://github.com/AMcCall22/online-profile).
+
+In order to deploy my site to GitHub Pages the following steps were taken:
+
+1. From the menu items near the top of the page, select **Settings**.
+2. Scroll down to the **GitHub Pages** section.
+3. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**.
+4. On selecting Master Branch the page is automatically refreshed and the website is now deployed.
+5. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+Deployed website - https://amccall22.github.io/online-profile/.
+
+To **clone** this project from Github, please follow the steps below:
+
+1. Navigate to the correct repository - [here](https://github.com/AMcCall22/online-profile).
+2. Click the green button - 'Clone or Download'.
+3. Copy the clone URL that appears (https://github.com/AMcCall22/online-profile.git)
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type 'git clone' and paste the URL you copied in Step 3.
+6. Press Enter to created your local clone.
+
+
 
 ## Credits
 
