@@ -10,7 +10,8 @@ The site is split into 3 sections:
 - Section two contains images of my 'make-believe' portfolio with links.
 - Section three details some further information covering education, job history,  my career aspirations and a contact form.   
 
-**££Add in MockUp££**
+#### Mock Up image
+![] (https://github.com/AMcCall22/online-profile/blob/d6a6a5841fdb35ee1c6155be11a11edad16e3f1b/Wireframes/AMc_MockUp.png)
 
 ## UX
 
