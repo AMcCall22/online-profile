@@ -11,7 +11,7 @@ The site is split into 3 sections:
 - Section three details some further information covering education, job history,  my career aspirations and a contact form.   
 
 #### Mock Up image
-![] (../Wireframes/AMc_MockUp.png)
+![] (/Wireframes/AMc_MockUp.png)
 
 ## UX
 
