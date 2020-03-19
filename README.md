@@ -28,7 +28,7 @@ This site may also be used for **potential employers** who would have similar re
 
 #### Wireframes
 
-Link to [Wireframes](https://c131787a-8544-4671-acc4-93e8d5fb0951.ws-eu01.gitpod.io/files/download/?id=dd10ecca-ead0-4bdd-9851-7832af552c64) -
+Link to [Wireframes](https://c131787a-8544-4671-acc4-93e8d5fb0951.ws-eu01.gitpod.io/files/download/?id=dd10ecca-ead0-4bdd-9851-7832af552c64)
 
 ## Features
 

@@ -7,6 +7,10 @@ body{
     height: 100%;
 }
 
+.fullscreen{
+    height: 100vh;
+}
+
 /*------------------------------------------------------------------navbar*/
 .navbar-nav{
     display: inline-block;
@@ -17,20 +21,16 @@ body{
 
 .navbar-nav a{
  text-decoration: none;
-  
 }
-
 
 .nav-item{
     color: #ffffff;
     padding: 10px;
-    font-size: 20px;
-    
-            
+    font-size: 20px;        
 }
 
 /*------------------------------------------------------------------header*/
-.entireheader{
+.entire-header{
     background-color: #0ea7b5;
     height: 50%;
     padding-bottom: 20px;
@@ -85,10 +85,10 @@ body{
     padding-top: 20px;
 }
 
-.fullscreen{
-    height: 100vh; 
+.skill-heading{
+    text-align: center;
+    height:30px;
 }
-
 
 /*------------------------------------------------------------------expertise*/
 #expertiseskills{
@@ -136,11 +136,6 @@ ul{
     font-size: 14px;
 }
 
-.skillheader{
-    text-align: center;
-    height:30px;
-}
-
 /*------------------------------------------------------------------cv*/
 .cv{
     padding-top: 30px;
@@ -158,7 +153,7 @@ ul{
     height: 100%;
 }
 
-.portfoliolinks{
+.portfolio-links{
     padding-top: 40px;
     text-align: center; 
 }
@@ -173,10 +168,8 @@ ul{
 }
 
 /*------------------------------------------------------------------aspirations*/
-
 .btn--style{
     background-color: #0ea7b5;
-    
     color: #ffffff;
 }
 
@@ -191,7 +184,7 @@ ul{
     margin-bottom: 20px;
 }
 
-.cardcontainer{
+.card-container{
     padding-top: 20px;
     margin: 0px;
 }
@@ -225,7 +218,7 @@ ul{
     text-align: left;     
 }
 
-.educationexperience{
+.education-experience{
     display: inline-block;
     text-align: center;
     padding-top: 30px;    
@@ -233,8 +226,7 @@ ul{
 
 /*------------------------------------------------------------------form*/
 .modal-content{
-    background-color:#e9eaec;
-    
+    background-color:#e9eaec;   
 }
 
 .modal-header{
@@ -249,10 +241,9 @@ ul{
     width: 95%;
 }
 
-.formcontent{
+.form-content{
     padding-bottom: 10px;
 }
-
 
 /*------------------------------------------------------------------footer*/
 .social-list{
