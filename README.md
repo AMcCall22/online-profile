@@ -29,7 +29,7 @@ This site may also be used for **potential employers** who would have similar re
 
 #### Wireframes
 
-Link to [Wireframes](/Wireframes/AMc_MockUp.png)
+Link to [Wireframes](/Wireframes/AMc_Profile_Wireframes.pdf)
 
 
 ## Features
