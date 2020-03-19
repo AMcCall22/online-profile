@@ -46,18 +46,20 @@ body{
     border-radius: 20px;
     border: #ffffff solid;
     max-height: 100%;
-    max-width: 165px;
+    max-width: 250px;
 }
 
 .name-tagline-photo{
     height: 220px;
-    padding: 20px;      
+    padding-top: 20px;
+    padding-left: 90px;   
 }
 
 .name{
     font-size: 50px;
     margin-left: 25px;
     margin-right: 25px;
+    
 }
 
 .tagline{
@@ -94,7 +96,7 @@ body{
 #expertiseskills{
     margin-bottom: 20px;
     height: 100%;
-    background-color: #ffffff; 
+    background-color: #ffffff;
 }
 
 .area{
@@ -272,12 +274,18 @@ ul{
 .name-tagline{
     text-align: center;
 }
+
+.name-tagline-photo{
+    padding-left: 0px;   
+}
 .skillbox{
     padding: 10px;
 }
 .photo{
-display: none;
+    display: none;
 }
+
+
 }
 
 
