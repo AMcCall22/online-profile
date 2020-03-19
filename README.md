@@ -11,7 +11,7 @@ The site is split into 3 sections:
 - Section three details some further information covering education, job history,  my career aspirations and a contact form.   
 
 #### Mock Up images
-![](/Wireframes/AMc_MockUp.png)
+![](/Readme_images/AMc_MockUp.png)
 ## UX
 
 #### User Stories
@@ -70,7 +70,7 @@ This further information section provide a brief view of my education and job hi
 
 ## Testing
 
-#### **Functionality **
+#### **Functionality**
 
 ##### **Browser compatibility**
 
@@ -88,7 +88,7 @@ Test description and desired outcome -
 - [W3C Markup Validation](https://validator.w3.org/) -  *Validation outcome - Document checking completed. No errors or warnings to show.* - *Passed*
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)  *Validation outcome - Congratulations! No Error Found. - Passed*
 
-Links and Buttons have also all been tested. 
+Links and Buttons have also all been tested and work correctly.
 
 #### **Reach (responsiveness)**
 
