@@ -10,9 +10,12 @@ The site is split into 3 sections:
 - Section two contains images of my 'make-believe' portfolio with links.
 - Section three details some further information covering education, job history,  my career aspirations and a contact form.   
 
-#### Mock Up images
-![](/Readme_images/AMc_MockUp.png)
-## UX
+#### **Mock Up images**
+
+![Readme_images/AMc_MockUp.png]()
+
+#### **UX**
+
 
 #### User Stories
 
